@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 75274022}
   - component: {fileID: 75274021}
   - component: {fileID: 75274023}
+  - component: {fileID: 75274024}
   m_Layer: 0
   m_Name: Cube Trzech Dup
   m_TagString: Untagged
@@ -337,30 +338,30 @@ AudioReverbZone:
   m_Density: 100
   m_LFReference: 250
   m_RoomLF: 0
-<<<<<<< HEAD
 --- !u!122 &75274023
 Halo:
-=======
---- !u!114 &75274023
-MonoBehaviour:
->>>>>>> b8d17119ec558632c7f6c10a9babde5a190616b6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75274016}
   m_Enabled: 1
-<<<<<<< HEAD
-  m_Color:
+    m_Color:
     serializedVersion: 2
     rgba: 4281611466
   m_Size: 5
-=======
-  m_EditorHideFlags: 0
+--- !u!114 &75274024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75274016}
+  m_Enabled: 1
+    m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 099ed559604f37a4eb9fa029444e6a6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
->>>>>>> b8d17119ec558632c7f6c10a9babde5a190616b6
 --- !u!1 &440554048
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,12 +378,9 @@ GameObject:
   - component: {fileID: 440554054}
   - component: {fileID: 440554056}
   - component: {fileID: 440554055}
-<<<<<<< HEAD
   - component: {fileID: 440554060}
   - component: {fileID: 440554059}
   - component: {fileID: 440554058}
-=======
->>>>>>> b8d17119ec558632c7f6c10a9babde5a190616b6
   - component: {fileID: 440554057}
   m_Layer: 0
   m_Name: Sphere twoja stara
@@ -620,7 +618,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-<<<<<<< HEAD
 --- !u!166 &440554057
 AudioChorusFilter:
   m_ObjectHideFlags: 0
@@ -662,9 +659,6 @@ AudioLowPassFilter:
     m_PostInfinity: 2
     m_RotationOrder: 4
 --- !u!114 &440554059
-=======
---- !u!114 &440554057
->>>>>>> b8d17119ec558632c7f6c10a9babde5a190616b6
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -673,7 +667,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 440554048}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 56666c5a40171f54783dd416a44f42bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -681,6 +674,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_MaxRayIntersections: 0
+--- !u!114 &440554061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440554048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+    m_Script: {fileID: 11500000, guid: 099ed559604f37a4eb9fa029444e6a6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!20 &440554060
 Camera:
   m_ObjectHideFlags: 0
@@ -724,11 +729,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
-=======
-  m_Script: {fileID: 11500000, guid: 099ed559604f37a4eb9fa029444e6a6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
->>>>>>> b8d17119ec558632c7f6c10a9babde5a190616b6
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
