@@ -346,9 +346,9 @@ Halo:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75274016}
   m_Enabled: 1
-    m_Color:
+  m_Color:
     serializedVersion: 2
-    rgba: 4281611466
+    rgba: 4286611584
   m_Size: 5
 --- !u!114 &75274024
 MonoBehaviour:
@@ -358,7 +358,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75274016}
   m_Enabled: 1
-    m_EditorHideFlags: 0
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 099ed559604f37a4eb9fa029444e6a6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -382,6 +382,8 @@ GameObject:
   - component: {fileID: 440554059}
   - component: {fileID: 440554058}
   - component: {fileID: 440554057}
+  - component: {fileID: 440554061}
+  - component: {fileID: 440554062}
   m_Layer: 0
   m_Name: Sphere twoja stara
   m_TagString: Untagged
@@ -457,7 +459,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440554048}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9810, y: 0, z: -2872}
+  m_LocalPosition: {x: -9810, y: 0, z: -2872.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -674,18 +676,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_MaxRayIntersections: 0
---- !u!114 &440554061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 440554048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-    m_Script: {fileID: 11500000, guid: 099ed559604f37a4eb9fa029444e6a6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!20 &440554060
 Camera:
   m_ObjectHideFlags: 0
@@ -729,6 +719,34 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &440554061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440554048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 099ed559604f37a4eb9fa029444e6a6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!208 &440554062
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440554048}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
