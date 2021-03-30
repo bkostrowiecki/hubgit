@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 75274018}
   - component: {fileID: 75274017}
   - component: {fileID: 75274021}
+  - component: {fileID: 75274022}
   m_Layer: 0
   m_Name: Cube Trzech Dup
   m_TagString: Untagged
@@ -311,6 +312,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!225 &75274022
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75274016}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
